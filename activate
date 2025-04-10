@@ -34,8 +34,6 @@ function CheckFile {
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $URLs = @(
     'https://raw.githubusercontent.com/chinanb114514-png/win/refs/heads/main/win%E6%BF%80%E6%B4%BB.txt',
-    'https://raw.githubusercontent.com/chinanb114514-png/win/refs/heads/main/win%E6%BF%80%E6%B4%BB.txt',
-    'https://raw.githubusercontent.com/chinanb114514-png/win/refs/heads/main/win%E6%BF%80%E6%B4%BB.txt'
 )
 
 foreach ($URL in $URLs | Sort-Object { Get-Random }) {
